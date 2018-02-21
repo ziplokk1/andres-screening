@@ -87,6 +87,6 @@ class Application {
 object Main {
   def main(args: Array[String]) {
     val app = new Application();
-    app.run("/root/data");
+    app.run(args(0));
   }
 }

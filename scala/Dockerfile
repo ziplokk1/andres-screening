@@ -17,4 +17,4 @@ WORKDIR /root/code/screening/src/main/scala
 RUN ["/root/scala-2.12.2/bin/scalac", "main.scala"]
 
 ENTRYPOINT ["/root/scala-2.12.2/bin/scala"]
-CMD ["scala.Main"]
+CMD ["scala.Main", "/root/data"]
