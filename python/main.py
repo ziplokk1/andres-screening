@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import sys
-import csv
 import os
 import re
 from collections import defaultdict
